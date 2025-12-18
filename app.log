@@ -1,0 +1,204 @@
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='beers';
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beers`);
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): PRAGMA foreign_key_list(`beers`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beers_backup` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers_backup` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers`;
+Executing (default): DROP TABLE `beers`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beers` (`id` INTEGER PRIMARY KEY, `name` VARCHAR(255) NOT NULL, `picture` VARCHAR(255), `price` FLOAT NOT NULL, `currency` TEXT, `stock` TEXT, `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `beers` SELECT `id`, `name`, `picture`, `price`, `currency`, `stock`, `created_at`, `updated_at`, `deleted_at` FROM `beers_backup`;
+Executing (default): DROP TABLE `beers_backup`;
+Executing (default): PRAGMA INDEX_LIST(`beers`)
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='users';
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`users`);
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): PRAGMA foreign_key_list(`users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `users_backup` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users_backup` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users`;
+Executing (default): DROP TABLE `users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY, `email` VARCHAR(255) NOT NULL, `profile_pic` VARCHAR(255), `password` VARCHAR(255) NOT NULL, `role` TEXT DEFAULT 'user', `address` VARCHAR(255), `name` VARCHAR(255), `created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `deleted_at` DATETIME);
+Executing (default): INSERT INTO `users` SELECT `id`, `email`, `profile_pic`, `password`, `role`, `address`, `name`, `created_at`, `updated_at`, `deleted_at` FROM `users_backup`;
+Executing (default): DROP TABLE `users_backup`;
+Executing (default): PRAGMA INDEX_LIST(`users`)
+Executing (default): SELECT name FROM sqlite_master WHERE type='table' AND name='beer_users';
+Executing (default): PRAGMA TABLE_INFO(`beer_users`);
+Executing (default): PRAGMA foreign_key_list(`beer_users`)
+Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+Executing (default): PRAGMA foreign_key_list(`beer_users`)
+Executing (default): PRAGMA TABLE_INFO(`beer_users`);
+Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+Executing (default): PRAGMA foreign_key_list(`beer_users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beer_users_backup` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+Executing (default): INSERT INTO `beer_users_backup` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users`;
+Executing (default): DROP TABLE `beer_users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beer_users` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+Executing (default): INSERT INTO `beer_users` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users_backup`;
+Executing (default): DROP TABLE `beer_users_backup`;
+Executing (default): PRAGMA TABLE_INFO(`beer_users`);
+Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+Executing (default): PRAGMA foreign_key_list(`beer_users`)
+Executing (default): CREATE TABLE IF NOT EXISTS `beer_users_backup` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+Executing (default): INSERT INTO `beer_users_backup` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users`;
+Executing (default): DROP TABLE `beer_users`;
+Executing (default): CREATE TABLE IF NOT EXISTS `beer_users` (`created_at` DATETIME NOT NULL, `updated_at` DATETIME NOT NULL, `user_id` INTEGER NOT NULL UNIQUE REFERENCES `users` (`id`), `beer_id` INTEGER NOT NULL UNIQUE REFERENCES `beers` (`id`), PRIMARY KEY (`user_id`, `beer_id`));
+Executing (default): INSERT INTO `beer_users` SELECT `created_at`, `updated_at`, `user_id`, `beer_id` FROM `beer_users_backup`;
+Executing (default): DROP TABLE `beer_users_backup`;
+Executing (default): PRAGMA INDEX_LIST(`beer_users`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_1`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_2`)
+Executing (default): PRAGMA INDEX_INFO(`sqlite_autoindex_beer_users_3`)
+Express listening on port: 5000
+Executing (default): SELECT `user`.`id`, `user`.`email`, `user`.`profile_pic`, `user`.`password`, `user`.`role`, `user`.`address`, `user`.`name`, `user`.`created_at`, `user`.`updated_at`, `user`.`deleted_at`, `user`.`created_at` AS `createdAt`, `user`.`updated_at` AS `updatedAt`, `user`.`deleted_at` AS `deletedAt`, `beers`.`id` AS `beers.id`, `beers`.`name` AS `beers.name`, `beers`.`picture` AS `beers.picture`, `beers`.`price` AS `beers.price`, `beers`.`currency` AS `beers.currency`, `beers`.`stock` AS `beers.stock`, `beers`.`created_at` AS `beers.created_at`, `beers`.`updated_at` AS `beers.updated_at`, `beers`.`deleted_at` AS `beers.deleted_at`, `beers`.`created_at` AS `beers.createdAt`, `beers`.`updated_at` AS `beers.updatedAt`, `beers`.`deleted_at` AS `beers.deletedAt`, `beers->beer_users`.`created_at` AS `beers.beer_users.createdAt`, `beers->beer_users`.`updated_at` AS `beers.beer_users.updatedAt`, `beers->beer_users`.`user_id` AS `beers.beer_users.userId`, `beers->beer_users`.`beer_id` AS `beers.beer_users.beerId` FROM `users` AS `user` LEFT OUTER JOIN ( `beer_users` AS `beers->beer_users` INNER JOIN `beers` AS `beers` ON `beers`.`id` = `beers->beer_users`.`beer_id`) ON `user`.`id` = `beers->beer_users`.`user_id` AND (`beers`.`deleted_at` IS NULL) WHERE (`user`.`deleted_at` IS NULL AND `user`.`id` = '1');
+Executing (default): SELECT * FROM beers WHERE name = ''' UNION SELECT id,email,password,4,5,6,7,8,9 FROM users-- '
