@@ -1,0 +1,9 @@
+rules:
+  - id: nodejs-ssti-nunjucks-renderstring
+    languages: [javascript]
+    severity: ERROR
+    message: "Possible SSTI: nunjucks.renderString used with user-controlled input"
+    paths:
+      include:
+        - src/router/routes/frontend.js
+    pattern: nunjucks.renderString($X)

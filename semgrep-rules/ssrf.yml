@@ -1,0 +1,11 @@
+rules:
+  - id: nodejs-ssrf-axios-user-url
+    languages: [javascript]
+    severity: ERROR
+    message: "Possible SSRF: axios GET request using user-controlled URL"
+    patterns:
+      - pattern: requests.get($URL)
+      - pattern-inside: |
+          app.get('/v1/test/', (req, res) => {
+            ...
+          })

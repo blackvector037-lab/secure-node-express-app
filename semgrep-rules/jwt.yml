@@ -1,0 +1,7 @@
+rules:
+  - id: nodejs-jwt-missing-verification-options
+    languages: [javascript]
+    severity: ERROR
+    message: "JWT verification without explicit algorithm / issuer / audience validation"
+    pattern: |
+      jwt.verify($TOKEN, $SECRET)
